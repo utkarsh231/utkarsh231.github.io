@@ -1,0 +1,15 @@
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2020
+  img: how_low_too_low.png
+  title: "How Low is Too Low? A Computational Perspective on Extremely Low-Resource Languages"
+  authors: "<u>Rachit Bansal, Himanshu Choudhary, Ravneet Punia, Niko Schenk, Jacob L Dahl, Émilie Pagé-Perron"
+  doc-url:
+  conf_name: ACL SRW
+  conf_year: 2021
+  url: "https://arxiv.org/pdf/2105.14515.pdf"
+  code: "https://github.com/cdli-gh/Semi-Supervised-NMT-for-Sumerian-English"
+  abstract: "Despite the recent advancements of attention-based deep learning architectures across a majority of Natural Language Processing tasks, their application remains limited in a low-resource setting because of a lack of pre-trained models for such languages. In this study, we make the first attempt to investigate the challenges of adapting these techniques for an extremely low-resource language -- Sumerian cuneiform -- one of the world's oldest written languages attested from at least the beginning of the 3rd millennium BC. Specifically, we introduce the first cross-lingual information extraction pipeline for Sumerian, which includes part-of-speech tagging, named entity recognition, and machine translation. We further curate InterpretLR, an interpretability toolkit for low-resource NLP, and use it alongside human attributions to make sense of the models. We emphasize on human evaluations to gauge all our techniques. Notably, most components of our pipeline can be generalised to any other language to obtain an interpretable execution of the techniques, especially in a low-resource setting. We publicly release all software, model checkpoints, and a novel dataset with domain-specific pre-processing to promote further research."
+-
