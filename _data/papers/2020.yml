@@ -5,7 +5,7 @@
   year: 2020
   img: cross_sean.png
   title: "Cross-SEAN: A cross-stitch semi-supervised neural attention model for COVID-19 fake news detection"
-  authors: "William Scott Paka, <u>Rachit Bansal, Abhay Kaushik, Shubhashis Sengupta, Tanmoy Chakraborty"
+  authors: "William Scott Paka, <u>Rachit Bansal</u>, Abhay Kaushik, Shubhashis Sengupta, Tanmoy Chakraborty"
   conf_name: Applied Soft Computing
   conf_year: 2021
   url: "https://arxiv.org/pdf/2102.08924"

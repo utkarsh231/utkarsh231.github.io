@@ -5,7 +5,7 @@
   year: 2021
   img: how_low_too_low.png
   title: "How Low is Too Low? A Computational Perspective on Extremely Low-Resource Languages"
-  authors: "<u>Rachit Bansal, Himanshu Choudhary, Ravneet Punia, Niko Schenk, Jacob L Dahl, Émilie Pagé-Perron"
+  authors: "<u>Rachit Bansal</u>, Himanshu Choudhary, Ravneet Punia, Niko Schenk, Jacob L Dahl, Émilie Pagé-Perron"
   conf_name: ACL SRW
   conf_year: 2021
   url: "https://arxiv.org/pdf/2105.14515.pdf"
@@ -18,7 +18,7 @@
   year: 2021
   img: endemic.png
   title: "Combining exogenous and endogenous signals with a semi-supervised co-attention network for early detection of COVID-19 fake tweets"
-  authors: "<u>Rachit Bansal, William Scott Paka, Shubhashis Sengupta, Tanmoy Chakraborty"
+  authors: "<u>Rachit Bansal</u>, William Scott Paka, Shubhashis Sengupta, Tanmoy Chakraborty"
   conf_name: PAKDD
   conf_year: 2021
   url: "https://arxiv.org/pdf/2104.05321"
