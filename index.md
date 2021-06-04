@@ -1,34 +1,34 @@
 ---
 layout: default
-description: I'm Elena (Lena) Voita and I work on Natural Language Processing. More details inside!
+description: I'm Rachit Bansal and I work on Natural Language Processing. More details inside!
 ---
 
 <!-- (comment) the image below can be found in img folder of this very project-->
-![i_am_a_fox](./img/people/lena_large-min.png){: style="float: right; margin: 0px 20px; width: 180px;" name="fox"}
+![i_am_rachit](./img/people/me.png){: style="float: right; margin: 0px 20px; width: 180px;" name="fox"}
 
 
 <!-- <a href= onMouseOver="document.readmore_1.src='/img/people/foxie.jpeg';" onMouseOut="document.readmore_1.src='/img/people/lena-min.png';">
 <img src="/img/people/lena-min.png" name="readmore_1" width=204px height=240px></a> -->
 
 
-I am Elena (Lena) Voita, a __Ph.D. student__ at the University of Edinburgh and University of Amsterdam. I'm very happy to be supervised by [Ivan Titov]({{site:ivan_page}}) and [Rico Sennrich]({{site.rico_page}}).
+I am Rachit Bansal, an __undergraduate student__ at Delhi Technological University. I am broadly interested in the areas of interpretability and robustness in NLP.  
 
-I'm supported by the [__Facebook PhD Fellowship__](https://research.fb.com/blog/2020/01/announcing-the-recipients-of-the-2020-facebook-fellowship-awards/) (2020-2022).
+<!-- Previously, I was a __research scientist__ at [Yandex Research]({{site.yandex_research_main}}) and worked closely with the [Yandex Translate](https://translate.yandex.com) team<a onMouseOver="document.fox.src='/img/people/foxie.jpeg';" onMouseOut="document.fox.src='/img/people/lena-min.png';">.</a>
+I (still) [teach NLP](https://github.com/yandexdataschool/nlp_course) at the [Yandex School of Data Analysis](https://yandexdataschool.com). -->
 
-Previously, I was a __research scientist__ at [Yandex Research]({{site.yandex_research_main}}) and worked closely with the [Yandex Translate](https://translate.yandex.com) team<a onMouseOver="document.fox.src='/img/people/foxie.jpeg';" onMouseOut="document.fox.src='/img/people/lena-min.png';">.</a>
-I (still) [teach NLP](https://github.com/yandexdataschool/nlp_course) at the [Yandex School of Data Analysis](https://yandexdataschool.com).
+During the past few years, I have been fortunate to work with some amazing people. Currently, I am a research intern at Adobe India. Most recently, I collaborated with [Danish](https://www.cs.cmu.edu/~ddanish/]) on evaluating attribution methods for NLP. Before that, I spent an year working at [LCS2, IIIT-D](https://lcs2.iiitd.edu.in), advised by [Dr. Tanmoy Chakraborty](http://faculty.iiitd.ac.in/~tanmoy/). I also spent a wonderful summer working on extremely low-resource MT as a part of the Cuneiform Digital Library Initiative ([CDLI](https://cdli.ucla.edu/)), University of Oxford, where I was advised by [Dr. Jacob Dahl](https://www.wolfson.ox.ac.uk/person/jacob-dahl) and [Dr. Niko Schenk](https://www.english-linguistics.de/nschenk/).
 
-<span style="color:red">__New!__</span>    NLP Course <span style="color:#92bf32">For You</span> - look [here](https://lena-voita.github.io/nlp_course.html).
+<!-- <span style="color:red">__New!__</span>    NLP Course <span style="color:#92bf32">For You</span> - look [here](https://rachitbansal.github.io/nlp_course.html). -->
 
 ## <span style="color:darkblue">News </span>
 
-* 03-06/2021 Invited talks at: [Stanford NLP Seminar](https://nlp.stanford.edu/seminar/), CornellNLP, [MT@UPC](https://mt.cs.upc.edu/seminars/), <span style="color:#888">CambridgeNLP, [DeeLIO workshop at NAACL 2021](https://sites.google.com/view/deelio-ws/), ...TBU.</span>
-* 10-12/2020 Invited talks at: CMU, [USC ISI](https://nlg.isi.edu/nl-seminar/), ENS Paris, [ML Street Talk](https://www.youtube.com/watch?v=Q0kN_ZHHDQY).
-* 09/2020 __2__ papers _accepted to __EMNLP__ 2020_.
-* 06-08/2020 Invited talks at: MIT, DeepMind, [Grammarly AI](https://grammarly.ai/information-theoretic-probing-with-minimum-description-length/), Unbabel, [NLP with Friends](https://nlpwithfriends.com).
-* 04/2020 Our [BPE-dropout](https://arxiv.org/pdf/1910.13267.pdf) is _accepted to __ACL__ 2020_. 
-* 01/2020 I'm [awarded Facebook PhD Fellowship](https://research.fb.com/blog/2020/01/announcing-the-recipients-of-the-2020-facebook-fellowship-awards/).
-* 01/2020 Invited talks at: [Rasa](https://www.meetup.com/ru-RU/Bots-Berlin-Build-better-conversational-interfaces-with-AI/events/267058207/), Google Research Berlin, [Naver Labs Europe](https://europe.naverlabs.com/research/seminars/analyzing-information-flow-in-transformers/), NLP track at [Applied Machine Learning Days at EPFL](https://appliedmldays.org/tracks/ai-nlp).
-* 08-09/2019 __2__ papers _accepted to __EMNLP__ 2019_, one at __NeurIPS__ _2019_.
-* 05/2019 __2__ papers _accepted to __ACL__ 2019_, one is oral.
+* May 2021:     Starting as a Research Intern at **Adobe** India’s Media and Data Science Research (**MDSR**) lab.
+* May 2021:     Volunteering at ICLR 2021.
+* Feb 2021:     My first research paper accepted at PAKDD 2021. Evaluating fake news early, with [Dr. Tanmoy Chakraborty](http://faculty.iiitd.ac.in/~tanmoy/) and [William Scott](https://www.linkedin.com/in/williamscottp/).
+* Nov 2020:     Collaborating with [Danish](https://www.cs.cmu.edu/~ddanish/]) (**LTI, CMU**) on evaluating neural explanations for NLP.
+* Nov 2020:     Volunteering at EMNLP 2020.
+* June 2020:      [Contributing to the Cuneiform Digital Library Initiative](https://cdli.ucla.edu/) (CDLI), University of Oxford. Working on low-resource machine translation.
+* June 2020:        Volunteering at ACL 2020.
+* May 2020:     Joined [LCS2](http://lcs2.iiitd.edu.in/), IIIT-D as a Research Intern. Working on closed-domain misinformation detection across social networks.
+* May 2019:     Serving as a Teaching Assistant for the Machine Learning course at Coding Blocks. With [Prateek](http://www.prateeknarang.com/) and [Manu](https://www.manuspillai.in/).
 
