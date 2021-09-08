@@ -15,6 +15,8 @@ I am Rachit Bansal, an undergraduate student at Delhi Technological University. 
 
 Over the past few years, I walked my first baby steps as a researcher owing to some wonderful people and collaborations. Currently, I am a research intern at Adobe India working on commonsense reasoning for large language models. Most recently, I collaborated with [Danish](https://www.cs.cmu.edu/~ddanish/]) on evaluating attribution methods for NLP. Before that, I spent an year working at [LCS2, IIIT-D](https://lcs2.iiitd.edu.in), advised by [Dr. Tanmoy Chakraborty](http://faculty.iiitd.ac.in/~tanmoy/). I also spent a wonderful summer working on extremely low-resource MT as a part of the Cuneiform Digital Library Initiative ([CDLI](https://cdli.ucla.edu/)), University of Oxford, where I was advised by [Dr. Jacob Dahl](https://www.wolfson.ox.ac.uk/person/jacob-dahl) and [Dr. Niko Schenk](https://www.english-linguistics.de/nschenk/).
 
+<span style="color:Crimson">I am currently applying to PhD programs worldwide for the Fall '22 admission cycle.</span>.
+
 ## <span style="color:darkblue">News </span>
 
 * July 2021:    Attending [LXMLS 2021](http://lxmls.it.pt/2021/) as a student.
