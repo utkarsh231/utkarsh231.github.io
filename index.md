@@ -20,7 +20,7 @@ Over the past few years, I walked my first baby steps as a researcher owing to s
 
 ## <span style="color:darkblue">News </span>
 
-* Nov 2021:     After an year-long review and revision process, our work evaluating model explanations has been accepted at TACL. In collaboration with [Danish](https://www.cs.cmu.edu/~ddanish/]), and other people from CMU and Google.
+* Nov 2021:     After a year-long review and revision process, our work evaluating model explanations has been accepted at TACL. In collaboration with [Danish](https://www.cs.cmu.edu/~ddanish/]), and other people from CMU and Google.
 * Sept 2021:    Two full papers with Adobe India accepted at the Workshop on Commonsense Reasoning and Knowledge Bases ([CSKB](https://akbc-cskb.github.io/)) at AKBC 2021.  
 * July 2021:    Attending [LXMLS 2021](http://lxmls.it.pt/2021/) as a student.
 <!-- * June 2021:    Volunteering at NAACL 2021. -->
