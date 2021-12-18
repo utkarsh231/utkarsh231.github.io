@@ -3,7 +3,7 @@
   paper-type: inproceedings
   selected: y
   year: 2021
-  img: TACL_Fig_1.jpg
+  img: TACL_Fig_1.png
   title: "Evaluating Explanations: How much do explanations from the teacher aid students?"
   authors: "Danish Pruthi, <u>Rachit Bansal</u>, Bhuwan Dhingra, Livio Baldini Soares, Michael Collins, Zachary C. Lipton, Graham Neubig, William W. Cohen"
   conf_name: TACL
