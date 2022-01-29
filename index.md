@@ -4,7 +4,7 @@ description: I'm Rachit Bansal and I work on Natural Language Processing. More d
 ---
 
 <!-- (comment) the image below can be found in img folder of this very project-->
-![i_am_rachit](./img/people/me.png){: style="float: right; margin: 0px 20px; width: 225px;" name="fox"}
+![i_am_rachit](./img/people/me.png){: style="float: right; margin: 0px 20px; width: 180px;" name="fox"}
 
 
 I am Rachit Bansal, an undergraduate student at Delhi Technological University. I am broadly interested in the areas of interpretability and robustness for natural language processing.
