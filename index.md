@@ -11,9 +11,6 @@ I am Rachit Bansal, an undergraduate student at Delhi Technological University. 
 
 Over the past few years, I walked my first baby steps as a researcher owing to some wonderful people and collaborations. I am currently pursuing my bachelor's thesis research with [Prof. Yonatan Belinkov](http://www.cs.technion.ac.il/~belinkov/) at the Technion, Israel. Before that, I was a research intern at [Adobe](https://research.adobe.com/)'s Media and Data Science Research Lab, where I worked on commonsense reasoning for large language models. I also collaborated with [Danish](https://www.cs.cmu.edu/~ddanish/) at LTI CMU for over a year to understand and evaluate model explanations in NLP. During my sophomore year, I spent a wonderful summer devising machine translation techniques for extremely low-resource languages as a part of the Cuneiform Digital Library Initiative ([CDLI](https://cdli.ucla.edu/)), University of Oxford, advised by [Prof. Jacob Dahl](https://www.wolfson.ox.ac.uk/person/jacob-dahl) and [Dr. Niko Schenk](https://www.english-linguistics.de/nschenk/). My first exposure to research was at [LCS2, IIIT-D](https://lcs2.iiitd.edu.in), where I was advised by [Prof. Tanmoy Chakraborty](http://faculty.iiitd.ac.in/~tanmoy/).
 
-<span style="color:Crimson">I am applying to PhD programs worldwide for the Fall '22 cycle.</span> <br>
-<span style="color:Crimson">[Reach out](mailto:rachitbansal2500@gmail.com).</span>
-
 ## <span style="color:darkblue">News </span>
 * Jan 2022:     Officially starting as a research intern with [Prof. Yonatan Belinkov](http://www.cs.technion.ac.il/~belinkov/) at the Technion, Israel. Characterizing generalization and robustness information-theoretically. 
 * Nov 2021:     After a year-long review and revision process, our work evaluating model explanations has been accepted at TACL. In collaboration with [Danish](https://www.cs.cmu.edu/~ddanish/), and other people from CMU and Google.
