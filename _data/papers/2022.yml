@@ -3,10 +3,24 @@
   paper-type: inproceedings
   selected: y
   year: 2022
+  img: information_measures.png
+  title: "Measures of Information Reflect Memorization Patterns"
+  authors: "<u>Rachit Bansal</u>, Danish Pruthi, Yonatan Belinkov"
+  conf_name: NeurIPS
+  conf_year: 2022
+  url: "https://arxiv.org/abs/2210.09404"
+  code: "https://github.com/technion-cs-nlp/Information-Reflects-Memorization"
+  abstract: "Neural networks are known to exploit spurious artifacts (or shortcuts) that co-occur with a target label, exhibiting heuristic memorization. On the other hand, networks have been shown to memorize training examples, resulting in example-level memorization. These kinds of memorization impede generalization of networks beyond their training distributions. Detecting such memorization could be challenging, often requiring researchers to curate tailored test sets. In this work, we hypothesize---and subsequently show---that the diversity in the activation patterns of different neurons is reflective of model generalization and memorization. We quantify the diversity in the neural activations through information-theoretic measures and find support for our hypothesis on experiments spanning several natural language and vision tasks. Importantly, we discover that information organization points to the two forms of memorization, even for neural activations computed on unlabeled in-distribution examples. Lastly, we demonstrate the utility of our findings for the problem of model selection."
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2022
   img: mode.png
   title: "Linear Connectivity Reveals Generalization Strategies"
   authors: "Jeevesh Juneja, <u>Rachit Bansal</u>, Kyunghyun Cho, João Sedoc, Naomi Saphra"
   conf_name: arXiv
   conf_year: 2022
   url: "https://arxiv.org/abs/2205.12411"
+  code: "https://github.com/aNOnWhyMooS/connectivity"
   abstract: "It is widely accepted in the mode connectivity literature that when two neural networks are trained similarly on the same data, they are connected by a path through parameter space over which test set accuracy is maintained. Under some circumstances, including transfer learning from pretrained models, these paths are presumed to be linear. In contrast to existing results, we find that among text classifiers (trained on MNLI, QQP, and CoLA), some pairs of finetuned models have large barriers of increasing loss on the linear paths between them. On each task, we find distinct clusters of models which are linearly connected on the test loss surface, but are disconnected from models outside the cluster -- models that occupy separate basins on the surface. By measuring performance on specially-crafted diagnostic datasets, we find that these clusters correspond to different generalization strategies: one cluster behaves like a bag of words model under domain shift, while another cluster uses syntactic heuristics. Our work demonstrates how the geometry of the loss surface can guide models towards different heuristic functions."

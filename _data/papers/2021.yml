@@ -9,6 +9,7 @@
   conf_name: TACL
   conf_year: 2021
   url: "https://arxiv.org/pdf/2012.00893.pdf"
+  code: "https://github.com/danishpruthi/evaluating-explanations"
   abstract: "While many methods purport to explain predictions by highlighting salient features, what precise aims these explanations serve and how to evaluate their utility are often unstated. In this work, we formalize the value of explanations using a student-teacher paradigm that measures the extent to which explanations improve student models in learning to simulate the teacher model on unseen examples for which explanations are unavailable. Student models incorporate explanations in training (but not prediction) procedures. Unlike many prior proposals to evaluate explanations, our approach cannot be easily gamed, enabling principled, scalable, and automatic evaluation of attributions. Using our framework, we compare multiple attribution methods and observe consistent and quantitative differences amongst them across multiple learning strategies."
 -
   layout: paper
