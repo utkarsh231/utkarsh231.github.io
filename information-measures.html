@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <meta name="description" content="Measures of Information Reflect Memorization Patterns" />
 <meta property="og:title" content="Measures of Information Reflect Memorization Patterns" />
-<meta property="og:url" content="https://rachitbansal.github.io/resources/information-measures" />
+<meta property="og:url" content="https://rachitbansal.github.io/information-measures" />
 <!-- <meta property="og:url" content="https://rome.baulab.info/" />
 <meta property="og:image" content="https://rome.baulab.info/images/ct-thumb.gif" /> -->
 <meta property="og:description" content="Evaluating model generalization using intrinsic, information-theoretic metrics." />
@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary" /> 
 <meta name="twitter:title" content="Measures of Information Reflect Memorization Patterns" />
 <meta name="twitter:description" content="Cracking open the black box of huge autoregressive transformer neural network language models." />
-<meta name="twitter:image" href="/img/websites/information-measures-paper-thumb.png" />
+<meta name="twitter:image" href="/resources/websites/information-measures/paper-thumb.png" />
 <!-- <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
@@ -68,9 +68,9 @@ gtag('js', new Date()); gtag('config', 'G-FD12LWN557');
   >Yonatan Belinkov</a><sup>3</sup></nobr>
  <br>
   <nobr><sup>1</sup><a href="https://www.csail.mit.edu/" target="_blank"
-  >DTU (Now at Google AI)</a>,</nobr>
-  <nobr><sup>2</sup><a href="https://khoury.northeastern.edu/" target="_blank"
-  >Amazon AWS (Work done while at CMU LTI)</a>,</nobr>
+  >Delhi Technological University (Now at Google AI)</a>,</nobr>
+  <nobr><sup>2</sup><a href="https://www.cs.cmu.edu/~ddanish/" target="_blank"
+  >Carnegie Mellon University (Now at Amazon Web Services)</a>,</nobr>
   <nobr><sup>3</sup><a href="https://www.cs.technion.ac.il/" target="_blank"
   >Technion - IIT</a></nobr>;
 </address>
@@ -89,8 +89,8 @@ gtag('js', new Date()); gtag('config', 'G-FD12LWN557');
 
 <div class="row justify-content-center text-center">
 <p>
-<a href="https://arxiv.org/pdf/2210.09404.pdf" class="d-inline-block p-3 align-top" target="_blank"><img height="100" width="78" src="img/websites/information-measures/paper-thumb.png" style="border:1px solid" alt="ArXiv Preprint thumbnail" data-nothumb=""><br>ArXiv<br>Preprint</a>
-<a href="https://github.com/technion-cs-nlp/Information-Reflects-Memorization" class="d-inline-block p-3 align-top" target="_blank"><img height="100" width="78" src="img/websites/information-measures/code-thumb.png" style="border:1px solid" alt="Github code thumbnail" data-nothumb=""><br>Code and Datasets<br>Github</a>
+<a href="https://arxiv.org/pdf/2210.09404.pdf" class="d-inline-block p-3 align-top" target="_blank"><img height="100" width="78" src="/resources/websites/information-measures/paper-thumb.png" style="border:1px solid" alt="ArXiv Preprint thumbnail" data-nothumb=""><br>ArXiv<br>Preprint</a>
+<a href="https://github.com/technion-cs-nlp/Information-Reflects-Memorization" class="d-inline-block p-3 align-top" target="_blank"><img height="100" width="78" src="/resources/websites/information-measures/code-thumb.png" style="border:1px solid" alt="Github code thumbnail" data-nothumb=""><br>Code and Datasets<br>Github</a>
 <!-- <a href="/data" class="d-inline-block p-3 align-top" target="_blank"><img height="100" width="78" src="images/data-thumb.png" style="border:1px solid" data-nothumb="" alt="Data directory thumbnail"><br>Dataset<br>and Models</a>
 <a href="https://colab.research.google.com/github/kmeng01/rome/blob/main/notebooks/rome.ipynb" class="d-inline-block p-3 align-bottom" target="_blank"><img height="78" width="136" src="images/colab-thumb.png" style="border:1px solid" alt="Colab demo thumbnail" data-nothumb=""><br>Demo Colab:<br> Model Editing</a>
 <a href="https://colab.research.google.com/github/kmeng01/rome/blob/main/notebooks/causal_trace.ipynb" class="d-inline-block p-3 align-bottom" target="_blank"><img height="78" width="136" src="images/colab-thumb.png" style="border:1px solid" alt="Colab demo thumbnail" data-nothumb=""><br>Demo Colab:<br> Causal Tracing</a> -->
@@ -98,29 +98,26 @@ gtag('js', new Date()); gtag('config', 'G-FD12LWN557');
 
 <div class="card" style="max-width: 1020px;">
 <div class="card-block">
-<!--
-<h3>Can Facts be Located in a Large Neural Network?</h3>
+
+<h3>Are Intrinsic Activation Patterns Indicative of Memorization?</h3>
 <p>
-Can knowledge be located within particular neurons
-within a huge deep network?  We put GPT-style autoregressive
-transformer language models under the microscope, and we find evidence
-for a computational knowledge center in the network. This insight leads
-to a state-of-the art method for editing a GPT model's factual knowledge.
+In this work, we posit that organization of information across internal activations of a network could
+be indicative of memorization. 
+
+Consider a sample task of separating concentric circles, illustrated
+in Figure 1a. A two-layered feed-forward network can learn the circular decision boundary for this
+task. However, if the nature of this learning task is changed, the network may resort to memorization.
+
+When a spurious feature is introduced in this dataset such that its value (+/−) correlates to the
+label (0/1) (Figure 1b), the network memorizes the feature-to-label mapping, reflected in a uniform
+activation pattern across neurons (Figure 1e).
+
+In contrast, when labels for the original set are shuffled
+(Figure 1c), the same network memorizes individual examples during training and shows a high
+amount of diversity in its activation patterns (Figure 1f). This example demonstrates how memorizing
+behavior is observed through diversity in neuron activations.
 </p>
--->
-<h3>Where are the Facts Inside a Language Model?</h3>
-<p>
-<b>Knowing</b> differs from <b>saying</b>: uttering words by rote is
-different from knowing a fact, because <em>knowledge of a fact generalizes
-across contexts</em>. In this project, we show that factual knowledge
-within GPT <b>also corresponds to a localized computation that can be
-directly edited</b>. For example, we can make a small change to a small
-set of the weights of GPT-J to teach it the counterfactual "Eiffel Tower
-is located in the city of Rome." Rather than merely regurgitating the new
-sentence, it will generalize that specific counterfactual knowledge and
-apply it in very different linguistic contexts.
-</p>
-<img src="images/small-intro-animation.gif" class="medfig" alt="Diagram of a GPT transformer prediction">
+<img src="/resources/websites/information-measures/toy-example.gif" class="medfig" alt="An example of a toy task that demonstrates activation patterns being representative of memorization.">
 </div><!--card-block-->
 </div><!--card-->
 
@@ -128,200 +125,14 @@ apply it in very different linguistic contexts.
 
 <div class="row">
 <div class="col">
-<h2>Why Locate Facts?</h2>
-
-<!--
-<p>Large language models such as GPT-2 and GPT-3 learn to predict many
-factual statements about the world: for example, when completing the
-sentence "Eiffel Tower is in the city of," large models will answer "Paris."
-</p>
--->
-
-<p>We are interested <b>how</b> and <b>where</b> a model stores its factual
-associations, for two reasons:
-</p>
-<ol>
-  <li><b>To understand huge opaque neural networks.</b> 
-    The internal computations of large language models are obscure.
-    Clarifying the processing of facts is one step in understanding
-    massive transformer networks.
-  <li><b>Fixing mistakes.</b> Models are often incorrect, biased,
-    or private, and we would like to develop methods that will enable
-    debugging and fixing of specific factual errors.
-</ol>
-
-<p>The facts we study take the form of knowledge tuples <b>t = (s, r, o)</b>, where
-<b>s</b> and <b>o</b> are subject and object entities, respectively, and <b>r</b> is
-the relation connecting the two. For example, <b>(s = <em>Megan Rapinoe</em>, r =
-  <em>plays sport professionally</em>, o = <em>soccer</em>)</b> indicates that
-Rapinoe plays soccer for a living. Each variable represents an 
-entity or relation that can be found in a knowledge graph,
-and that can be written as a natural language string.</p>
-
-<p>To query GPT for knowledge of a fact, we
-express <b>(s, r)</b> as a text prompt (by expanding a template from
-the <span class="bold-sc">CounterFact</span> data set), and check whether
-the generated continuation matches <b>o</b>.
-</p>
-
-<h2>What Did We Find?</h2>
-
-<p>In GPT-style transformer models, we discovered two things:
-</p>
-<p><b>1. Factual associations can be localized</b> along three dimensions,
-to (1) MLP module parameters (2) at a range of middle layers and
-(3) specifically during processing of the last token
-of the subject.
-</p>
-<p class="text-center">
-<img id="shaq" src="images/teaser-shaq-crop.svg" class="smallfig" alt="A causal trace of a factual statement in GPT">
-</p>
-<p>
-The causal trace above reveals a small number of states that
-contain information that can flip the model from one factual prediction to
-another.  Our studies use such causal traces and find evidence that knowledge
-retrieval occurs in MLP modules at the early site (at (a) in the figure); then
-attention mechanisms at the late site (at (b) in the figure) bring the
-information to the end of the computation where the specific word can
-be predicted.
-</p>
-
-<p style="padding-top: 10px"><b>2. Individual factual associations can be changed</b>
-by making small
-rank-one changes in a single MLP module.  We can distinguish between
-changes in <em>knowledge</em> versus superficial changes in language by
-measuring generalization to other wordings of the same fact.
-</p>
-<p class="text-center">
-<img src="images/eiftower-crop.svg" class="smallfig" alt="An example of editing a fact in GPT using the ROME method.">
-</p>
-<p>
-The example above shows that changing the model's processing of a single
-statement about the Eiffel Tower, if done by changing selected parameters
-in the right way, will result in expressing a change in knowledge in a
-variety of nontrivial contexts.
-</p>
-<p>
-At (a) in in the figure, a single direct statement of a counterfactual
-is posed, and it is used to compute a rank-one parameter change in a single
-MLP module.  Despite the simplicity of the change, results shown at (b) show
-that for a more complex prompt about travel from Berlin, the model treats
-the Eiffel tower as if it is in Rome; similarly in (c) when asked about nearby
-sites, the model suggests places in Rome before explicitly mentioning Rome.
-Changes in predictions in such different contexts is evidence that
-change <em>generalizes</em>: the model has not merely learned to parrot
-the exact sequence of words in the counterfactual, but it also applies
-the new knowledge in sentences that are very different from the original
-example.
-</p>
+<h2>Why Intrinsic Evaluation?</h2>
 
 
-<h2>How to Locate Factual Retrieval</h2>
+<h2>How do we Quantify Neuron Diversity?</h2>
 
-<p>To identify decisive computations, we introduce a method called
-<em>Causal Tracing</em>.
-By isolating the causal effect of individual states within the
-network while processing a factual statement, we can trace the path
-followed by information through the network.
-<p>
 
-<p class="text-center">
-<img src="images/small-ct-animation.gif" class="smallfig" alt="An animation demonstrating the Causal Tracing method.">
-</p>
-
-<p>Causal traces work by running a network multiple times,
-introducing corruptions to frustrate the computation, and then
-restoring individual states in order to identify the information
-that restores the results.  Tracing can be used to test any
-individual state or combinations of states.  We use carefully-designed
-traces to identify a specific small set of MLP module computations
-that mediate retrieval of factual associations.
-</p>
-
-<p>
-Then we check this finding by asking: can the MLP module computations
-be altered to edit a model's belief in a specific fact?
-</p>
-
-<h2>How to Edit Factual Storage</h2>
-
-<p>To modify individual facts within a GPT model, we introduce a method
-called <em>ROME</em>, or Rank-One Model Editing.
-It treats an MLP module as a simple key-value store: for example, if
-the key encodes a subject and the value encodes knowledge about the
-subject, then the MLP can recall the association by retrieving the value
-corresponding to the key.  ROME uses a rank-one modification of the
-MLP weights to directly write in a new key-value pair.
-
-<p class="text-center">
-<img src="images/uv-update-crop.svg" class="smallfig" alt="Diagram of an MLP module">
-</p>
-
-<p>The figure above illustrates a single MLP module within a transformer.
-The D-dimensional vector at (b) acts as the key that represents a
-subject to know about, and the H-dimensional output at (c) 
-acts at the value that encodes learned properties about the subject.
-ROME inserts new association by making a rank-one change to 
-the matrix (d) that maps from keys to values.
-</p>
-<p>
-Note that ROME assumes a linear view of memory within a neural
-network rather than an individual-neuron view.  This linear perspective
-sees individual memories as rank-one slices of parameter space.  Experiments
-confirm this view: when we do a rank-one update to an MLP module in the
-computational center identified by causal tracing, we find that associations of
-individual facts can be updated in a way that is both specific and generalized.
-</p>
-
-<h2>How to Distinguish Knowing a Fact from Saying a Fact</h2>
-
-<b>Knowing</b> differs from <b>saying</b>.  
-A variety of fine-tuning methods can cause a language model to
-parrot a specific new sentence, but training a model to adjust its
-knowledge of a fact is different from merely teaching it to regurgitate
-a particular sequence of words.
-</p>
-<p>
-We can tell the difference between knowing and saying
-by measuring two hallmarks of knowledge: specificity and generalization.
-</p>
-
-<ol>
-  <li><b>Specificity</b> means that when your knowledge of a fact changes,
-    it doesn't change other facts.  For example, after learning that
-    the Eiffel Tower is in Rome, you shouldn't also think that every
-    other tourist attraction is also in Rome.
-  <li><b>Generalization</b> means that your knowledge of a fact is robust
-    to changes in wording and context.  After learning the Eiffel Tower is
-    in Rome, then you should also know that visiting it will require travel
-    to Rome.
-</ol>
-
-<p>Our new dataset
-<a href="/data" class="bold-sc" target="_blank">CounterFact</a>
-includes thousands of counterfactuals along with text that allows
-quantitative testing of specificity and generalization when learning
-a counterfactual.
-</p>
-
-<p class="text-center">
- <img src="images/knowing-saying.svg" class="bigfig" alt="Quantitative results distinguishing knowing from saying.">
-</p>
-
-<p>Above are the results of an experiment that uses <span class="bold-sc">CounterFact</span>
-to confirm the distinction between knowing and saying parameters in GPT-2 XL.
-ROME, which edits the <a href="#shaq">early causal site (a)</a>, achieves excellent efficacy
-(measured by performance on the counterfactual prompt itself), specificity (performance on
-neighborhood subjects <i>not</i> supposed to change), and generalization (performance on
-paraphrases). By contrast, if we modify the attention mechanism at the <a href="#shaq">later site (b)</a>,
-the model achieves fair efficacy and specificity but completely fails to generalize.
-</p>
-
-</div>
-</div>
-
-<div class="row">
-<div class="col">
+<h2>What did we find?</h2>
+ß
 
 <!-- <h2>Related Work</h2>
 
@@ -434,7 +245,7 @@ Rachit Bansal, Danish Pruthi, and Yonatan Belinkov. "<em>Measures of Information
 <footer class="nd-pagefooter">
   <div class="row">
     <div class="col-6 col-md text-center">
-      <a href="https://baulab.info/">About the Bau Lab</a>
+      <a href="https://rachitbansal.github.io/">Home</a>
     </div>
   </div>
 </footer>

@@ -4,19 +4,19 @@ body, td, th {
   h2 {
     margin-top: 3ex;
   }
-  /* Tyranian Purple, the Color of the Roman Empire */
-  .color-primary-0 { color: #66023C }
-  .color-primary-1 { color: #4F0373 }
-  .color-primary-2 { color: #7D040E }
-  .color-primary-3 { color: #77047D }
-  .color-primary-4 { color: #7D040E }
+  
+  .color-primary-0 { color: rgb(2, 99, 102) }
+  .color-primary-1 { color: rgb(3, 100, 115) }
+  .color-primary-2 { color: rgb(4, 60, 125) }
+  .color-primary-3 { color: rgb(4, 125, 111) }
+  .color-primary-4 { color: rgb(13, 4, 111) }
   
   .nd-pageheader {
     padding: 2rem 15px;
     margin-bottom: 1.5rem;
     color: white;
     text-align: center;
-    background-color: #66023C;
+    background-color: rgb(2, 99, 102);
   }
   
   .nd-pageheader a, .nd-pageheader a.likelink {
@@ -28,7 +28,7 @@ body, td, th {
     margin-top: 1.5rem;
     padding: 1rem;
     text-align: center;
-    background-color: #66023C;
+    background-color: rgb(2, 99, 102);
   }
   
   .nd-pagefooter a {
