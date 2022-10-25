@@ -97,8 +97,8 @@ gtag('js', new Date()); gtag('config', 'G-FD12LWN557');
 <a href="https://colab.research.google.com/github/kmeng01/rome/blob/main/notebooks/causal_trace.ipynb" class="d-inline-block p-3 align-bottom" target="_blank"><img height="78" width="136" src="images/colab-thumb.png" style="border:1px solid" alt="Colab demo thumbnail" data-nothumb=""><br>Demo Colab:<br> Causal Tracing</a> -->
 </p>
 
-<div class="card" style="max-width: 1020px;">
-<div class="card-block">
+<!-- <div class="card" style="max-width: 1020px;"> -->
+<!-- <div class="card-block"> -->
 
 <h3>Are Intrinsic Activation Patterns Indicative of Memorization?</h3>
 <p>
@@ -120,10 +120,9 @@ gtag('js', new Date()); gtag('config', 'G-FD12LWN557');
   We refer to this form of memorization as <em>example-level memorization</em>.
 </p>
 <img src="/resources/websites/information-measures/circles-reps.gif" class="medfig" alt="A toy task demonstrating that activation patterns are representative of memorization.">
-</div><!--card-block-->
-</div><!--card-->
-
-</div><!--row-->
+<!-- </div>card-block-->
+<!-- </div>
+</div> -->
 
 <div class="row">
 <div class="col">
@@ -155,9 +154,12 @@ gtag('js', new Date()); gtag('config', 'G-FD12LWN557');
   in their generalizing behavior. In order to quantify intra-neuron and inter-neuron diversity, we adopt
   the information-theoretic measures of <b>entropy</b> and <b>mutual information</b> (MI), respectively.
 </p>
-<img src="/resources/websites/information-measures/hypothesis.png" class="medfig" alt="Summarizing our hypothesis.">
+<p class="text-center">
+<img src="/resources/websites/information-measures/hypothesis.png" class="smallfig" alt="Summarizing our hypothesis.">
+</p>
 
 <h2>What did we find?</h2>
+
 <h3>Heuristic Memorization</h3>
 <p>
   Through our experiments, we first note that <b>low entropy across neural activations
@@ -170,7 +172,10 @@ gtag('js', new Date()); gtag('config', 'G-FD12LWN557');
   In both these two scenarios, we see a consistent drop in the entropy
   with increasing values of heurisitic memorization (α), with a particularly sharp decline when α = 1.0.
 </p>
-<img src="/resources/websites/information-measures/entropy-hm.png" class="medfig" alt="Entropy results for heuristic memorization.">
+<p class="text-center">
+<img src="/resources/websites/information-measures/entropy-hm.png" class="bigfig" alt="Entropy results for heuristic memorization.">
+</p>
+
 <p>
   Furthermore, we observe that <b>networks with higher heuristic memorization exhibit higher mutual information</b> across pairs of neurons.
   In the figure below, networks with higher memorization (↑ α),
@@ -178,7 +183,9 @@ gtag('js', new Date()); gtag('config', 'G-FD12LWN557');
   across the two settings, we see some qualitative differences: The memorizing (α = 1.0) MLP network on Colored MNIST (left) has a uniform distribution across the entire scale of MI values, while
   DistilBERT on Sentiment Adjectives (right) largely has a high-density peak for an MI of ∼ 0.9
 </p>
-<img src="/resources/websites/information-measures/mi-hm.png" class="medfig" alt="MI results for heuristic memorization.">
+<p class="text-center">
+<img src="/resources/websites/information-measures/mi-hm.png" class="bigfig" alt="MI results for heuristic memorization.">
+</p>
 
 <h3>Example-level Memorization</h3>
 <p>
@@ -191,7 +198,10 @@ gtag('js', new Date()); gtag('config', 'G-FD12LWN557');
   A dissimilar trend is seen for DistilBERT fine-tuned on IMDb (right): a distinct rise for high values of
   β and a consistent value for low or no label shuffling.
 </p>
-<img src="/resources/websites/information-measures/entropy-em.png" class="medfig" alt="Entropy results for example-level memorization.">
+<p class="text-center">
+<img src="/resources/websites/information-measures/entropy-em.png" class="bigfig" alt="Entropy results for example-level memorization.">
+</p>
+
 <p>
   Our hypothesis for the relation between example-level memorization and MI is supported by the figure below.
   In both settings, networks trained on higher β values consist of neuron pairs that show low values of
@@ -200,13 +210,15 @@ gtag('js', new Date()); gtag('config', 'G-FD12LWN557');
   concentrated at low values of MI. Meanwhile, for DistilBERT on IMDb (right sub-plot), we observe
   that neuron pair density gradually shifts towards lower values of MI with increasing β.
 </p>
-<img src="/resources/websites/information-measures/mi-em.png" class="medfig" alt="MI results for example-level memorization.">
+<p class="text-center">
+<img src="/resources/websites/information-measures/mi-em.png" class="bigfig" alt="MI results for example-level memorization.">
+</p>
 
 <div class="row justify-content-center" style="margin-bottom: 20px">
 <p class="text-center">
 <a href="https://arxiv.org/abs/2210.09404"
    >Please see our paper for experiments on real-world instances of memorization
-   and more detailed discussions on the larger implications of our findings.
+   and more detailed discussions on the larger implications of our findings.</a>
 </p>
 </div>
 <!-- <h2>Related Work</h2>
