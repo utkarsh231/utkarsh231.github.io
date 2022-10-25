@@ -91,6 +91,7 @@ gtag('js', new Date()); gtag('config', 'G-FD12LWN557');
 <p>
 <a href="https://arxiv.org/pdf/2210.09404.pdf" class="d-inline-block p-3 align-top" target="_blank"><img height="100" width="78" src="/resources/websites/information-measures/paper-thumb.png" style="border:1px solid" alt="ArXiv Preprint thumbnail" data-nothumb=""><br>ArXiv<br>Preprint</a>
 <a href="https://github.com/technion-cs-nlp/Information-Reflects-Memorization" class="d-inline-block p-3 align-top" target="_blank"><img height="100" width="78" src="/resources/websites/information-measures/code-thumb.png" style="border:1px solid" alt="Github code thumbnail" data-nothumb=""><br>Code and Datasets<br>Github</a>
+<a href="https://docs.google.com/presentation/d/1aPuqPMFg2IsD3yqfTWbJn5Mfj_Iv2wTG/edit?usp=sharing&ouid=113015734903125527142&rtpof=true&sd=true" class="d-inline-block p-3 align-top" target="_blank"><img height="100" width="78" src="/resources/websites/information-measures/slides-thumb.png" style="border:1px solid" alt="Slides thumbnail" data-nothumb=""><br>Slides</a>
 <!-- <a href="/data" class="d-inline-block p-3 align-top" target="_blank"><img height="100" width="78" src="images/data-thumb.png" style="border:1px solid" data-nothumb="" alt="Data directory thumbnail"><br>Dataset<br>and Models</a>
 <a href="https://colab.research.google.com/github/kmeng01/rome/blob/main/notebooks/rome.ipynb" class="d-inline-block p-3 align-bottom" target="_blank"><img height="78" width="136" src="images/colab-thumb.png" style="border:1px solid" alt="Colab demo thumbnail" data-nothumb=""><br>Demo Colab:<br> Model Editing</a>
 <a href="https://colab.research.google.com/github/kmeng01/rome/blob/main/notebooks/causal_trace.ipynb" class="d-inline-block p-3 align-bottom" target="_blank"><img height="78" width="136" src="images/colab-thumb.png" style="border:1px solid" alt="Colab demo thumbnail" data-nothumb=""><br>Demo Colab:<br> Causal Tracing</a> -->
@@ -101,23 +102,24 @@ gtag('js', new Date()); gtag('config', 'G-FD12LWN557');
 
 <h3>Are Intrinsic Activation Patterns Indicative of Memorization?</h3>
 <p>
-In this work, we posit that organization of information across internal activations of a network could
-be indicative of memorization. 
+  In this work, we posit that organization of information across internal activations of a network could
+  be indicative of memorization. 
 
-Consider a sample task of separating concentric circles, illustrated
-in Figure 1a. A two-layered feed-forward network can learn the circular decision boundary for this
-task. However, if the nature of this learning task is changed, the network may resort to memorization.
+  Consider a sample task of separating concentric circles, illustrated
+  in the figure below. A two-layered feed-forward network can learn the circular decision boundary for this
+  task. However, if the nature of this learning task is changed, the network may resort to memorization.
 
-When a spurious feature is introduced in this dataset such that its value (+/−) correlates to the
-label (0/1) (Figure 1b), the network memorizes the feature-to-label mapping, reflected in a uniform
-activation pattern across neurons (Figure 1e).
+  When a spurious feature is introduced in this dataset such that its value (+/−) correlates to the
+  label (0/1), the network memorizes the feature-to-label mapping, reflected in a uniform
+  activation pattern across neurons. In our work we refer to this kind of model behaviour as <em>heuristic memorization</em>.
 
-In contrast, when labels for the original set are shuffled
-(Figure 1c), the same network memorizes individual examples during training and shows a high
-amount of diversity in its activation patterns (Figure 1f). This example demonstrates how memorizing
-behavior is observed through diversity in neuron activations.
+  In contrast, when labels for the original set are shuffled,
+  the same network memorizes individual examples during training and shows a high
+  amount of diversity in its activation patterns. This example demonstrates how memorizing
+  behavior is observed through diversity in neuron activations.
+  We refer to this form of memorization as <em>example-level memorization</em>.
 </p>
-<img src="/resources/websites/information-measures/toy-example.gif" class="medfig" alt="An example of a toy task that demonstrates activation patterns being representative of memorization.">
+<img src="/resources/websites/information-measures/circles-reps.gif" class="medfig" alt="A toy task demonstrating that activation patterns are representative of memorization.">
 </div><!--card-block-->
 </div><!--card-->
 
@@ -126,14 +128,87 @@ behavior is observed through diversity in neuron activations.
 <div class="row">
 <div class="col">
 <h2>Why Intrinsic Evaluation?</h2>
-
+<p>
+  The impetus to study ways to perform intrinsic evaluation of neural networks is multi-fold:
+  <ol>
+    <li>The practical perspective.
+      Generally, evaluating models for the afore-defined memorization
+      requires researchers to laboriously collect specialized
+      and labeled datasets to measure the extent of suspected fallacies in models. 
+      While these sets make it possible to assess model behavior over a chosen set of features, 
+      the larger remaining features remain hard to identify and study.
+    <li>The interpretability perspective.
+      Performance measures over the evaluation sets that are generally used to assess model behaviour
+      lack interpretability and are not indicative of internal workings
+      that manifest certain model behaviors.
+  </ol>
+  In this work, we find that activation patterns from in-distribution example sets
+  are indicative generalization behaviour on their own.
+</p>
 
 <h2>How do we Quantify Neuron Diversity?</h2>
-
+<p>
+  We formalize the notion of diversity across neuron activations through two measures:
+  (i) <b>intra-neuron diversity</b>: the variation of activations for a neuron across a set of examples, and
+  (ii) <b>inter-neuron diversity</b>: the dissimilarity between pairwise neuron activations on the same set of examples.
+  We hypothesize that the nature of these quantities for two networks could point to underlying differences
+  in their generalizing behavior. In order to quantify intra-neuron and inter-neuron diversity, we adopt
+  the information-theoretic measures of <b>entropy</b> and <b>mutual information</b> (MI), respectively.
+</p>
+<img src="/resources/websites/information-measures/hypothesis.png" class="medfig" alt="Summarizing our hypothesis.">
 
 <h2>What did we find?</h2>
-ß
+<h3>Heuristic Memorization</h3>
+<p>
+  Through our experiments, we first note that <b>low entropy across neural activations
+  indicates heuristic memorization in networks</b>. This is evident from the figure below, where we see that
+  (1) as we increase α the validation performance decreases, indicating heuristic memorization (see the
+  solid line in the plots); and (2) with an increase in this heuristic memorization, we see lower entropy
+  across neural activations. We show the entropy values of neural activations for the 3 layers of an MLP
+  trained on Colored MNIST (left sub-plot) and for the last two layers of DistilBERT on Sentiment
+  Adjectives (right sub-plot).
+  In both these two scenarios, we see a consistent drop in the entropy
+  with increasing values of heurisitic memorization (α), with a particularly sharp decline when α = 1.0.
+</p>
+<img src="/resources/websites/information-measures/entropy-hm.png" class="medfig" alt="Entropy results for heuristic memorization.">
+<p>
+  Furthermore, we observe that <b>networks with higher heuristic memorization exhibit higher mutual information</b> across pairs of neurons.
+  In the figure below, networks with higher memorization (↑ α),
+  have larger density of neurons in the high mutual information region. While this trend is consistent
+  across the two settings, we see some qualitative differences: The memorizing (α = 1.0) MLP network on Colored MNIST (left) has a uniform distribution across the entire scale of MI values, while
+  DistilBERT on Sentiment Adjectives (right) largely has a high-density peak for an MI of ∼ 0.9
+</p>
+<img src="/resources/websites/information-measures/mi-hm.png" class="medfig" alt="MI results for heuristic memorization.">
 
+<h3>Example-level Memorization</h3>
+<p>
+  We simulate example-level memorization through label shuffling on a variety of datasets.
+  First, we note that model performance on the validation set decreases with increased label
+  shuffling, validating an increase in example-level memorization (in the figure below). Interestingly, this dip in
+  validation accuracy is accompanied with a consistent rise in entropy across the neurons. For MLP
+  networks trained on MNIST (left), we see a distinct rise in entropy even with a small amount of label
+  shuffling (β = 0.25), followed by a steady increase (layers 2 and 3) or no change (layer 1) in entropy.
+  A dissimilar trend is seen for DistilBERT fine-tuned on IMDb (right): a distinct rise for high values of
+  β and a consistent value for low or no label shuffling.
+</p>
+<img src="/resources/websites/information-measures/entropy-em.png" class="medfig" alt="Entropy results for example-level memorization.">
+<p>
+  Our hypothesis for the relation between example-level memorization and MI is supported by the figure below.
+  In both settings, networks trained on higher β values consist of neuron pairs that show low values of
+  MI (left side of the plots). In line with the previous observations, we find that MLPs trained on some
+  amount of label noise (any β > 0.00) on MNIST (left sub-plot) have a higher density of neuron pairs
+  concentrated at low values of MI. Meanwhile, for DistilBERT on IMDb (right sub-plot), we observe
+  that neuron pair density gradually shifts towards lower values of MI with increasing β.
+</p>
+<img src="/resources/websites/information-measures/mi-em.png" class="medfig" alt="MI results for example-level memorization.">
+
+<div class="row justify-content-center" style="margin-bottom: 20px">
+<p class="text-center">
+<a href="https://arxiv.org/abs/2210.09404"
+   >Please see our paper for experiments on real-world instances of memorization
+   and more detailed discussions on the larger implications of our findings.
+</p>
+</div>
 <!-- <h2>Related Work</h2>
 
 <p>Our work builds upon insights in other work that has examined
