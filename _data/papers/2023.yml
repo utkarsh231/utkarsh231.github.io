@@ -3,12 +3,10 @@
   paper-type: inproceedings
   selected: y
   year: 2022
-  img: information_measures.png
+  img: calm.png
   title: "LLM Augmented LLMs: Expanding Capabilities through Composition"
   authors: "<u>Rachit Bansal</u>, Bidisha Samanta, Siddharth Dalmia, Nitish Gupta, Shikhar Vashishth, Sriram Ganapathy, Abhishek Bapna, Prateek Jain, Partha Talukdar"
   conf_name: ICLR (under review)
   conf_year: 2024
   url: "https://drive.google.com/file/d/1tfTTK9MnJTbOoCgLCXe3V2y_aRWuxWmD/view?usp=sharing"
-  code: ""
-  website: ""
   abstract: "Foundational models with billions of parameters %and which have been trained on large corpora of data have demonstrated non-trivial skills in a variety of domains. However, due to their monolithic structure, it is challenging and expensive to augment them or impart new skills. On the other hand, due to their adaptation abilities, several new instances of these models are being trained towards new domains and tasks. In this work, we study the problem of efficient and practical composition of existing foundation models with more specific models to enable newer capabilities. To this end, we propose \name{}---\fullName{}---which introduces cross-attention between models to compose their representations and enable new capabilities. Salient features of \name\ are: (i) Scales up LLMs on new tasks by `re-using' existing LLMs along with a few  additional parameters and data, (ii) Existing model weights are kept intact, and hence preserves existing capabilities, and (iii) Applies to diverse domains and settings.  We illustrate that augmenting \palms{} with a  smaller model trained on low-resource languages results in an absolute improvement of up to $13$\% on tasks like translation into English and arithmetic reasoning for low-resource languages.  Similarly, when \palms{} is augmented with a code-specific model, we see a relative improvement of $40$\% over the base model for code generation and explanation tasks---on-par with fully fine-tuned counterparts."
