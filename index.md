@@ -9,7 +9,7 @@ description: I'm Rachit Bansal and I work on Natural Language Processing. More d
 
 I am Rachit Bansal, a pre-doctoral researcher at Google Research India. I am broadly interested in making language models useful, controllable, and accessible. I am also interested in interpretability and analysis. Previously, I was an undergraduate student at the Delhi Technological University.
 
-Over the past few years, I walked my first baby steps as a researcher owing to some wonderful people and collaborations. I pursued my bachelor's thesis research with [Prof. Yonatan Belinkov](http://www.cs.technion.ac.il/~belinkov/) at the Technion in Israel. There I had a great time studying how [intrinsic proprties of a neural network](https://rachitbansal.github.io/information-measures) is informative of generalization behaviours. Before that, I was a research intern at [Adobe](https://research.adobe.com/)'s Media and Data Science Research Lab, where I worked on [commonsense reasoning for large language models](https://aclanthology.org/2022.naacl-main.83/).
+Over the past few years, I walked my first baby steps as a researcher owing to some wonderful people and collaborations. I pursued my bachelor's thesis research with [Prof. Yonatan Belinkov](http://www.cs.technion.ac.il/~belinkov/) at the Technion in Israel. There I had a great time studying how [intrinsic properties of a neural network](https://rachitbansal.github.io/information-measures) are informative of generalization behaviours. Before that, I was a research intern at [Adobe](https://research.adobe.com/)'s Media and Data Science Research Lab, where I worked on [commonsense reasoning for large language models](https://aclanthology.org/2022.naacl-main.83/).
 
 I am extremely fortunate to have been involved in some incredible collaborations. I worked with [Danish](https://www.cs.cmu.edu/~ddanish/) for more than two years to [evaluate explanation methods](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00465/110436/Evaluating-Explanations-How-Much-Do-Explanations) in NLP (started with [a meek awe-inspired email](https://rachitbansal.github.io/img/danish-email.png)). I also worked for more than two years with [Naomi](https://nsaphra.net/) on studying [mode connectivity in loss surfaces](https://openreview.net/forum?id=hY6M0JHl3uL) of language models (started with [a message on a Discord channel](https://rachitbansal.github.io/img/naomi-discord.jpeg)).
 
@@ -18,7 +18,7 @@ I also spent a couple of wonderful summers as a part of the Google Summer of Cod
 ## <span style="color:darkblue">News and Timeline </span>
 **2023**
 * **September**  Submitted our work on composing large language models to ICLR 2024.
-* **May**  Presenting our linear mode connectivity work at ICLR 2023 (w/ Jeevesh and Naomi) in Kigali, Rwanda!
+* **May**  Presenting our work on linear mode connectivity at ICLR 2023 in Kigali, Rwanda!
 
 **2022**
 * **September**  My bachelor's thesis work done at the Technion was accepted at NeurIPS 2022!
