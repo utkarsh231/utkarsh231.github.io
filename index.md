@@ -11,11 +11,16 @@ I am Rachit Bansal, a pre-doctoral researcher at Google Research India. I am bro
 
 Over the past few years, I walked my first baby steps as a researcher owing to some wonderful people and collaborations. I pursued my bachelor's thesis research with [Prof. Yonatan Belinkov](http://www.cs.technion.ac.il/~belinkov/) at the Technion in Israel. There I had a great time studying how [intrinsic properties of a neural network](https://rachitbansal.github.io/information-measures) are informative of generalization behaviours. Before that, I was a research intern at [Adobe](https://research.adobe.com/)'s Media and Data Science Research Lab, where I worked on [commonsense reasoning for large language models](https://aclanthology.org/2022.naacl-main.83/).
 
-I am extremely fortunate to have been involved in some incredible collaborations. I worked with [Danish](https://www.cs.cmu.edu/~ddanish/) for more than two years to [evaluate explanation methods](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00465/110436/Evaluating-Explanations-How-Much-Do-Explanations) in NLP (started with [a meek awe-inspired email](https://rachitbansal.github.io/img/danish-email.png)). I also worked for more than two years with [Naomi](https://nsaphra.net/) on studying [mode connectivity in loss surfaces](https://openreview.net/forum?id=hY6M0JHl3uL) of language models (started with [a message on a Discord channel](https://rachitbansal.github.io/img/naomi-discord.jpeg)).
+I am extremely fortunate to have been involved in some incredible collaborations. I worked with [Danish](https://www.cs.cmu.edu/~ddanish/) for more than two years to [evaluate explanation methods](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00465/110436/Evaluating-Explanations-How-Much-Do-Explanations) in NLP[^1]. I also worked for more than two years with [Naomi](https://nsaphra.net/) on studying [mode connectivity in loss surfaces](https://openreview.net/forum?id=hY6M0JHl3uL) of language models[^2].
 
 I also spent a couple of wonderful summers as a part of the Google Summer of Code program with the Cuneiform Digital Library Initiative ([CDLI](https://cdli.ucla.edu/)). Here, I was advised by [Prof. Jacob Dahl](https://www.wolfson.ox.ac.uk/person/jacob-dahl) and [Dr. Niko Schenk](https://www.english-linguistics.de/nschenk/). My first exposure to research was at [LCS2, IIIT-D](https://www.lcs2.in/).
 
+[^1]: Started with [a meek awe-inspired email](https://rachitbansal.github.io/img/danish-email.png)
+[^2]: Started with [a message](https://rachitbansal.github.io/img/naomi-discord.jpeg) on [MLC](https://mlcollective.org/)'s Discord channel
+
 ## <span style="color:darkblue">News and Timeline </span>
+<span style="color:red">I am looking to start a Ph.D. in Fall'2024!</span>
+
 **2023**
 * **September**  Submitted our work on composing large language models to ICLR 2024.
 * **May**  Presenting our work on linear mode connectivity at ICLR 2023 in Kigali, Rwanda!
@@ -24,8 +29,8 @@ I also spent a couple of wonderful summers as a part of the Google Summer of Cod
 * **September**  My bachelor's thesis work done at the Technion was accepted at NeurIPS 2022!
 * **August**  Joining [Google Research India](https://research.google/locations/india/) as a pre-doctoral researcher.
 * **June**    Releasing the [pre-print](https://arxiv.org/abs/2205.12411) for our work on analyzing linear mode connectivity and out-of-distribution behaviour. Led by [Jeevesh](https://github.com/Jeevesh8) and mentored by [Naomi](http://nsaphra.github.io/).
-* **May**     Our work on commonsense and factual reasoning done at Adobe MDSR accepted at NAACL 2022.
-* **January** Starting my bachelor's thesis with [Prof. Yonatan Belinkov](http://www.cs.technion.ac.il/~belinkov/) at the Technion, Israel.
+* **May**     Two papers on commonsense and factual reasoning done at Adobe MDSR accepted at NAACL 2022!
+* **January** Starting my bachelor's thesis with [Yonatan](http://www.cs.technion.ac.il/~belinkov/) at the Technion, Israel!
 
 **2021**
 * **November**  After a year-long review and revision process, our work evaluating model explanations has been accepted at TACL. In collaboration with [Danish](https://www.cs.cmu.edu/~ddanish/).
