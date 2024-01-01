@@ -47,7 +47,9 @@ I also spent a couple of wonderful summers as a part of the Google Summer of Cod
 <!-- * May 2019:     Serving as a Teaching Assistant for the Machine Learning course at Coding Blocks. With [Prateek](http://www.prateeknarang.com/) and [Manu](https://www.manuspillai.in/). -->
 
 
+<br><br>
 ***
+<br>
 
 [^1]: Started with [a meek awe-inspired email](https://rachitbansal.github.io/img/danish-email.png)
 [^2]: Started with [a message](https://rachitbansal.github.io/img/naomi-discord.jpeg) on [MLC](https://mlcollective.org/)'s Discord channel
