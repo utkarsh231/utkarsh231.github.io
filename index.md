@@ -16,7 +16,7 @@ I am extremely fortunate to have been involved in some incredible collaborations
 I also spent a couple of wonderful summers as a part of the Google Summer of Code program with the Cuneiform Digital Library Initiative ([CDLI](https://cdli.ucla.edu/)). Here, I was advised by [Jacob](https://www.wolfson.ox.ac.uk/person/jacob-dahl) and [Niko](https://www.english-linguistics.de/nschenk/). My first exposure to research was at [LCS2, IIIT-D](https://www.lcs2.in/).
 
 ## <span style="color:darkblue">News and Timeline </span>
-<span style="color:red">I am looking for Ph.D. positions for Fall 2024</span>
+<span style="color:red">🎓 I am actively looking for Ph.D. positions for Fall 2024!</span>
 
 **2023**
 * **September**  Submitted our work on composing large language models to ICLR 2024.
