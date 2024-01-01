@@ -48,8 +48,6 @@ I also spent a couple of wonderful summers as a part of the Google Summer of Cod
 
 
 <br><br>
-***
-<br>
 
 [^1]: Started with [a meek awe-inspired email](https://rachitbansal.github.io/img/danish-email.png)
 [^2]: Started with [a message](https://rachitbansal.github.io/img/naomi-discord.jpeg) on [MLC](https://mlcollective.org/)'s Discord channel
