@@ -7,20 +7,21 @@ description: I'm Rachit Bansal and I work on Natural Language Processing. More d
 ![i_am_rachit](./img/people/me.png){: style="float: right; margin: 0px 20px; width: 180px;" name="fox"}
 
 
-I am Rachit, a pre-doctoral researcher at Google Research India working with [Partha](https://parthatalukdar.github.io/). I am interested in making language models useful, controllable, and accessible. I am also interested in robust evaluation and analysis. Previously, I was an undergraduate student at the Delhi Technological University.
+I am Rachit, an incoming PhD student at Harvard University. Broadly, I am interested in making language models useful, controllable, and accessible. I am also interested in robust evaluation and analysis.
 
-Over the past few years, I walked my first baby steps as a researcher owing to some wonderful people and collaborations. I pursued my bachelor's thesis research with [Yonatan](http://www.cs.technion.ac.il/~belinkov/) at the Technion in Israel. There I had a great time studying how [intrinsic properties of a neural network](https://rachitbansal.github.io/information-measures) are informative of generalization behaviours. Before that, I was a research intern at [Adobe](https://research.adobe.com/)'s Media and Data Science Research Lab, where I worked on [commonsense reasoning for large language models](https://aclanthology.org/2022.naacl-main.83/).
+Over the past few years, I walked my first baby steps as a researcher owing to some wonderful people and collaborations. Most recently, I was a pre-doctoral researcher at Google DeepMind, working on modularizing LLMs with [Partha](https://parthatalukdar.github.io/) and [Prateek](https://www.prateekjain.org/). Before that, I pursued my bachelor's thesis research with [Yonatan](http://www.cs.technion.ac.il/~belinkov/) at the Technion in Israel. There I had a great time studying how [intrinsic properties of a neural network](https://rachitbansal.github.io/information-measures) are informative of generalization behaviours. Before that, I was a research intern at [Adobe](https://research.adobe.com/)'s Media and Data Science Research Lab, where I worked on [commonsense reasoning for large language models](https://aclanthology.org/2022.naacl-main.83/).
 
-I am extremely fortunate to have been involved in some incredible collaborations. I worked with [Danish](https://www.cs.cmu.edu/~ddanish/) for more than two years to [evaluate explanation methods](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00465/110436/Evaluating-Explanations-How-Much-Do-Explanations) in NLP[^1]. I also worked with [Naomi](https://nsaphra.net/) studying [mode connectivity in loss surfaces](https://openreview.net/forum?id=hY6M0JHl3uL) of language models[^2].
+I was fortunate to collaborate with [Danish](https://www.cs.cmu.edu/~ddanish/) for more than two years to [evaluate explanation methods](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00465/110436/Evaluating-Explanations-How-Much-Do-Explanations) in NLP[^1]. I also had an amazing time working with [Naomi](https://nsaphra.net/) studying [mode connectivity in loss surfaces](https://openreview.net/forum?id=hY6M0JHl3uL) of language models[^2].
 
-I also spent a couple of wonderful summers as a part of the Google Summer of Code program with the Cuneiform Digital Library Initiative ([CDLI](https://cdli.ucla.edu/)). Here, I was advised by [Jacob](https://www.wolfson.ox.ac.uk/person/jacob-dahl) and [Niko](https://www.english-linguistics.de/nschenk/). My first exposure to research was at [LCS2, IIIT-D](https://www.lcs2.in/).
+I also spent a couple of wonderful summers as a part of the Google Summer of Code program with the Cuneiform Digital Library Initiative ([CDLI](https://cdli.ucla.edu/)). Here, I was advised by [Jacob](https://www.wolfson.ox.ac.uk/person/jacob-dahl) and [Niko](https://www.english-linguistics.de/nschenk/).
 
 ## <span style="color:darkblue">News and Timeline </span>
-<span style="color:red">🎓 I am actively looking for Ph.D. positions for Fall 2024!</span>
+**2024**
+* **August** Starting my doctorate at Harvard University!
+* **May**  Presenting our work on composing large language models at ICLR 2024 in Vienna!
 
 **2023**
-* **September**  Submitted our work on composing large language models to ICLR 2024.
-* **May**  Presenting our work on linear mode connectivity at ICLR 2023 in Kigali, Rwanda!
+* **May**  Presenting our work on linear mode connectivity at ICLR 2023 in Kigali!
 
 **2022**
 * **September**  My bachelor's thesis work done at the Technion was accepted at NeurIPS 2022!
