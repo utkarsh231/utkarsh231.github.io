@@ -7,7 +7,8 @@ description: I'm Rachit Bansal and I work on Natural Language Processing. More d
 ![i_am_rachit](./img/people/me.png){: style="float: right; margin: 0px 20px; width: 180px;" name="fox"}
 
 
-I am Rachit, an incoming PhD student at Harvard University. Broadly, I am interested in making language models useful, controllable, and accessible. I am also interested in robust evaluation and analysis.
+I am Rachit, a PhD student at Harvard University. I am super fortunate to be advised by [Prof. David Alvarez-Melis][https://dmelis.github.io] and [Prof. Martin Wattenberg][https://www.bewitched.com/about.html]. Broadly, I am interested in making language models more useful and controllable. I am also interested in understanding and analysis.
+<!-- I am also interested in robust evaluation and analysis.-->
 
 Over the past few years, I walked my first baby steps as a researcher owing to some wonderful people and collaborations. Most recently, I was a pre-doctoral researcher at Google DeepMind, working on modularizing LLMs with [Partha](https://parthatalukdar.github.io/) and [Prateek](https://www.prateekjain.org/). Before that, I pursued my bachelor's thesis research with [Yonatan](http://www.cs.technion.ac.il/~belinkov/) at the Technion in Israel. There I had a great time studying how [intrinsic properties of a neural network](https://rachitbansal.github.io/information-measures) are informative of generalization behaviours. Before that, I was a research intern at [Adobe](https://research.adobe.com/)'s Media and Data Science Research Lab, where I worked on [commonsense reasoning for large language models](https://aclanthology.org/2022.naacl-main.83/).
 
