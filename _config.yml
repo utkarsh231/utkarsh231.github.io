@@ -20,27 +20,19 @@ footer:
   contact:
     - type: email
       name: Email
-      value: yourmail@domain.com
-    - type: wechat
-      value: YourWeChatUsername
-      link: "#"
+      value: utkarshpsri@gmail.com
+  
   follow:
     - type: twitter
       name: Twitter
-      link: http://twitter.com/YourTwitterUsername
-      username: "@YourTwitterUsername"
-    - type: facebook
-      name: Facebook
-      link: http://facebook.com/YourFacebookUsername
+      link: http://twitter.com/Utkarsh_ps
+      username: "@Utkarsh_ps"
     - type: linkedin
       name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
+      link: http://linkedin.com/in/utkarsh-ps/
     - type: github
       name: GitHub
-      link: http://github.com/YourGitHubUsername
-    - type: dribbble
-      name: Dribbble
-      link: https://dribbble.com/YourDribbbleUsername
+      link: http://github.com/utkarsh231
     - type: rss
       name: RSS
       link: /feed.xml
