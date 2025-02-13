@@ -6,9 +6,16 @@ profile_picture:
 ---
 
 <p>
-  Welcome! This site serves as an example for the Bay Jekyll theme. Bay is a very simple and minimal theme, directly inspired by Dan Grover's <a href="http://dangrover.com">website</a>.
+  Welcome! I’m Utkarsh, a Master’s student at NYU specializing in Machine Learning, with a deep passion for applying AI to real-world challenges. My research journey has been centered on biomedical image analysis and advanced medical image compression, leading to multiple publications on novel architectures for segmentation and classification in imaging modalities like MRI and X-rays.
 </p>
 
-<p>
-  You can find the source code and the instructions on <a href="https://github.com/eliottvincent/bay">GitHub</a>.
 </p>
+Currently, I’m a Research Assistant at NYU Langone, leveraging machine learning to extract insights from healthcare data. My goal is to bridge the gap between AI and healthcare, developing intelligent solutions that drive innovation and efficiency. With experience spanning both academia and industry, I’m always eager to take on complex problems and collaborate on impactful projects.
+</p>
+
+
+</p>
+Outside of research, you’ll find me exploring NYC’s cafes, staying active at Planet Fitness, or just wandering around the city taking in the energy 🗽.
+</p>
+
+
