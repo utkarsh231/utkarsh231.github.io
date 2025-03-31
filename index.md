@@ -17,6 +17,9 @@ I was fortunate to collaborate with [Danish](https://www.cs.cmu.edu/~ddanish/) f
 I also spent a couple of wonderful summers as a part of the Google Summer of Code program with the Cuneiform Digital Library Initiative ([CDLI](https://cdli.ucla.edu/)). Here, I was advised by [Jacob](https://www.wolfson.ox.ac.uk/person/jacob-dahl) and [Niko](https://www.english-linguistics.de/nschenk/).
 
 ## <span style="color:darkblue">News and Timeline </span>
+**2025**
+* **May** Interning at Meta's Llama Pre-training team this Summer!
+
 **2024**
 * **August** Starting my doctorate at Harvard University!
 * **May**  Presenting our work on composing large language models at ICLR 2024 in Vienna!
@@ -26,13 +29,13 @@ I also spent a couple of wonderful summers as a part of the Google Summer of Cod
 
 **2022**
 * **September**  My bachelor's thesis work done at the Technion was accepted at NeurIPS 2022!
-* **August**  Joining [Google Research India](https://research.google/locations/india/) as a pre-doctoral researcher.
+* **August**  Joining [Google DeepMind](https://research.google/locations/india/) as a pre-doctoral researcher.
 * **June**    Releasing the [pre-print](https://arxiv.org/abs/2205.12411) for our work on analyzing linear mode connectivity and out-of-distribution behaviour. Led by [Jeevesh](https://github.com/Jeevesh8) and mentored by [Naomi](http://nsaphra.github.io/).
 * **May**     Two papers on commonsense and factual reasoning done at Adobe MDSR accepted at NAACL 2022!
 * **January** Starting my bachelor's thesis with [Yonatan](http://www.cs.technion.ac.il/~belinkov/) at the Technion, Israel!
 
 **2021**
-* **November**  After a year-long review and revision process, our work evaluating model explanations has been accepted at TACL. In collaboration with [Danish](https://www.cs.cmu.edu/~ddanish/).
+* **November**  Our work evaluating model explanations is accepted at TACL! In collaboration with [Danish](https://www.cs.cmu.edu/~ddanish/).
 * **July**    Attending the 11th Lisbon Machine Learning Summer School ([LXMLS 2021](http://lxmls.it.pt/2021/)).
 <!-- * June 2021:    Volunteering at NAACL 2021. -->
 * **May**     Work with CDLI accepted at ACL SRW 2021. Gauging machine translation and sequence labeling for extremely low-resource languages. 
