@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://utkarsh231.github.io/al-folio/sitemap.xml
