@@ -7,15 +7,13 @@ description: I am Utkarsh. More details inside!
 ![i_am_utkarsh](./img/people/me.jpg){: style="float: right; margin: 0px 20px; width: 180px;" name="fox"}
 
 
-I am Rachit, a PhD student at Harvard University advised by [Prof. David Alvarez-Melis](https://dmelis.github.io). 
-<!-- Broadly, I am interested in making language models more useful and controllable. I am also interested in understanding and analysis.-->
-<!-- I am also interested in robust evaluation and analysis.-->
+I am Utkarsh Prakash Srivastava, a Machine Learning Researcher passionate about building systems that connect rigorous mathematics with real-world impact. My research journey began in India, where I worked with [Prof. Palash Goshal](https://scholar.google.com/citations?user=S1OTcXoAAAAJ&hl=en) on biomedical imaging problems, learning how machine learning could push the frontiers of healthcare. Later, I was fortunate to spend a summer in Nagoya, Japan, under [Prof. Toshiaki Fujii](https://profs.provost.nagoya-u.ac.jp/html/100001881_en.html), exploring region-of-interest coding for advanced medical image compression. These experiences gave me not just technical depth, but also the joy of working across cultures and disciplines.  
 
-Over the past few years, I walked my first baby steps as a researcher owing to some wonderful people and collaborations. Most recently, I was a pre-doctoral researcher at Google DeepMind, working on modularizing LLMs with [Partha](https://parthatalukdar.github.io/) and [Prateek](https://www.prateekjain.org/). Before that, I pursued my bachelor's thesis research with [Yonatan](http://www.cs.technion.ac.il/~belinkov/) at the Technion in Israel studying the [information-theoretic properties of neural networks](https://rachitbansal.github.io/information-measures). Before that, I was a research intern at [Adobe](https://research.adobe.com/)'s Media and Data Science Research Lab, where I worked on [commonsense reasoning for large language models](https://aclanthology.org/2022.naacl-main.83/).
+Currently, I am based in New York City as a researcher at NYU Langone Health, where I collaborate with [Dr. Samrachana Adhikari](https://samrachana.com/) and the Targeted Learning Group. Together, we are studying robust statistical inference methods and building AI systems for public health and legal applications.  
 
-I was fortunate to collaborate with [Danish](https://www.cs.cmu.edu/~ddanish/) on [evaluating neural attribution methods](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00465/110436/Evaluating-Explanations-How-Much-Do-Explanations)[^1]. I also had an amazing time working with [Naomi](https://nsaphra.net/) studying [mode connectivity in loss surfaces](https://openreview.net/forum?id=hY6M0JHl3uL) of language models[^2].
+Along the way, I have also collaborated with startups, contributing to the development of multimodal legal document intelligence systems, and engaged with communities of researchers worldwide who share the same excitement about deep learning, natural language processing, and computer vision.  
 
-I also spent a couple of wonderful summers as a part of the Google Summer of Code program with the Cuneiform Digital Library Initiative ([CDLI](https://cdli.ucla.edu/)). Here, I was advised by [Jacob](https://www.wolfson.ox.ac.uk/person/jacob-dahl) and [Niko](https://www.english-linguistics.de/nschenk/).
+For me, research has always been about people as much as ideas—mentors who guided me, collaborators who challenged me, and institutions that gave me opportunities to grow. Each step, from India to Japan to the United States, has shaped how I see AI: not just as an algorithm, but as a tool for advancing human understanding and solving meaningful problems.
 
 ## <span style="color:darkblue">News and Timeline </span>
 **2025**
