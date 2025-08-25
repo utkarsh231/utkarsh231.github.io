@@ -1,7 +1,7 @@
 ---
 // filepath: /Users/utkarsh/Desktop/utkarsh/Private Projects/utkarsh231.github.io/_pages/cv.md
 layout: cv
-permalink: Utkarsh_Research_CV.pdf
+permalink: /assets/pdf/Utkarsh_Research_CV.pdf
 title: cv
 nav: true
 nav_order: 5
