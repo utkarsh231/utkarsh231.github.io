@@ -1,10 +1,10 @@
 ---
 layout: default
-description: I am Rachit. More details inside!
+description: I am Utkarsh. More details inside!
 ---
 
 <!-- (comment) the image below can be found in img folder of this very project-->
-![i_am_rachit](./img/people/me.png){: style="float: right; margin: 0px 20px; width: 180px;" name="fox"}
+![i_am_utkarsh](./img/people/i_am_utkarsh.jpg){: style="float: right; margin: 0px 20px; width: 180px;" name="fox"}
 
 
 I am Rachit, a PhD student at Harvard University advised by [Prof. David Alvarez-Melis](https://dmelis.github.io). 
