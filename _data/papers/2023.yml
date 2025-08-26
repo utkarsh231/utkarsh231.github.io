@@ -3,11 +3,11 @@
   paper-type: inproceedings
   selected: y
   year: 2023
-  img: calm.png
-  title: "LLM Augmented LLMs: Expanding Capabilities through Composition"
-  authors: "<u>Rachit Bansal</u>, Bidisha Samanta, Siddharth Dalmia, Nitish Gupta, Shikhar Vashishth, Sriram Ganapathy, Abhishek Bapna, Prateek Jain, Partha Talukdar"
-  conf_name: ICLR
-  conf_year: 2024
-  url: "https://arxiv.org/abs/2401.02412"
-  code: "https://github.com/google-deepmind/calm"
-  abstract: "Foundational models with billions of parameters %and which have been trained on large corpora of data have demonstrated non-trivial skills in a variety of domains. However, due to their monolithic structure, it is challenging and expensive to augment them or impart new skills. On the other hand, due to their adaptation abilities, several new instances of these models are being trained towards new domains and tasks. In this work, we study the problem of efficient and practical composition of existing foundation models with more specific models to enable newer capabilities. To this end, we propose CALM---Composition to Augment Language Models---which introduces cross-attention between models to compose their representations and enable new capabilities. Salient features of CALM are: (i) Scales up LLMs on new tasks by 're-using' existing LLMs along with a few  additional parameters and data, (ii) Existing model weights are kept intact, and hence preserves existing capabilities, and (iii) Applies to diverse domains and settings.  We illustrate that augmenting PaLM2-S with a smaller model trained on low-resource languages results in an absolute improvement of up to 13% on tasks like translation into English and arithmetic reasoning for low-resource languages. Similarly, when PaLM2-S is augmented with a code-specific model, we see a relative improvement of 40% over the base model for code generation and explanation tasks---on-par with fully fine-tuned counterparts."
+  img: brain_cancer.png
+  title: "A Comparative Study of Deep Learning Algorithms in Classifying Brain Cancer"
+  authors: "<u>Utkarsh Prakash Srivastava</u>"
+  conf_name: "14th International Conference on Computing Communication and Networking Technologies (ICCCNT)"
+  conf_year: 2023
+  url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10306832&isnumber=10306339"
+  abstract: "Cancer remains a significant global health concern, contributing to a substantial number of fatalities. Specifically, brain cancer entails the abnormal proliferation of cells within or near the brain. Timely detection plays a pivotal role in effective tumor treatment. Machine learning advancements have significantly aided the medical field in diagnosing brain tumors. This study evaluates four popular deep learning algorithms—AlexNet, GoogLeNet, InceptionV3, and ResNet50—using MRI slices to classify tumors into Glioma, Meningioma, Pituitary, and No Tumor categories. Performance was assessed using accuracy, precision, recall, and F1 score, with GoogLeNet achieving the best results. A comparative analysis with state-of-the-art algorithms highlights the enhanced performance of these models for brain cancer classification."
+

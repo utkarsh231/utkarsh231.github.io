@@ -1,25 +1,12 @@
 -
   layout: paper
-  paper-type: inproceedings
+  paper-type: inbook
   selected: y
   year: 2022
-  img: information_measures.png
+  img: autcd_net.png
   title: "AUTCD-Net: An Automated Framework for Efficient Covid-19 Diagnosis on Computed Tomography Scans"
-  authors: "Palash Ghosal, Amish Kumar, Soumya Snigdha Kundu, <u>Utkarsh Prakash Srivastava</u>, Ashis Datta & Hiren Kumar Deva Sarma "
-  conf_name: NeurIPS
+  authors: "Palash Ghosal, Amish Kumar, Soumya Snigdha Kundu, <u>Utkarsh Prakash Srivastava</u>, Ashis Datta, Hiren Kumar Deva Sarma "
+  conf_name: "Lecture Notes in Networks and Systems (Springer Nature)"
   conf_year: 2022
   url: "https://link.springer.com/chapter/10.1007/978-981-19-5090-2_10"
-  abstract: "Neural networks are known to exploit spurious artifacts (or shortcuts) that co-occur with a target label, exhibiting heuristic memorization. On the other hand, networks have been shown to memorize training examples, resulting in example-level memorization. These kinds of memorization impede generalization of networks beyond their training distributions. Detecting such memorization could be challenging, often requiring researchers to curate tailored test sets. In this work, we hypothesize---and subsequently show---that the diversity in the activation patterns of different neurons is reflective of model generalization and memorization. We quantify the diversity in the neural activations through information-theoretic measures and find support for our hypothesis on experiments spanning several natural language and vision tasks. Importantly, we discover that information organization points to the two forms of memorization, even for neural activations computed on unlabeled in-distribution examples. Lastly, we demonstrate the utility of our findings for the problem of model selection."
--
-  layout: paper
-  paper-type: inproceedings
-  selected: y
-  year: 2022
-  img: mode.png
-  title: "Linear Connectivity Reveals Generalization Strategies"
-  authors: "Jeevesh Juneja, <u>Rachit Bansal</u>, Kyunghyun Cho, João Sedoc, Naomi Saphra"
-  conf_name: ICLR
-  conf_year: 2023
-  url: "https://arxiv.org/abs/2205.12411"
-  code: "https://github.com/aNOnWhyMooS/connectivity"
-  abstract: "It is widely accepted in the mode connectivity literature that when two neural networks are trained similarly on the same data, they are connected by a path through parameter space over which test set accuracy is maintained. Under some circumstances, including transfer learning from pretrained models, these paths are presumed to be linear. In contrast to existing results, we find that among text classifiers (trained on MNLI, QQP, and CoLA), some pairs of finetuned models have large barriers of increasing loss on the linear paths between them. On each task, we find distinct clusters of models which are linearly connected on the test loss surface, but are disconnected from models outside the cluster -- models that occupy separate basins on the surface. By measuring performance on specially-crafted diagnostic datasets, we find that these clusters correspond to different generalization strategies: one cluster behaves like a bag of words model under domain shift, while another cluster uses syntactic heuristics. Our work demonstrates how the geometry of the loss surface can guide models towards different heuristic functions."
+  abstract: "The coronavirus pandemic has caused one of the biggest global crises. With an inevitable need for fast screening of the disease, deep learning-based segmentation of Covid-19 infected lung regions in computed tomography (CT) scans gained significant attention. The automated screening procedure generated results significantly faster than the manual screening techniques and directly helped provide a wider outreach to patients. Therefore, to aid in computer-aided diagnoses, this paper presents AUTCD-Net (AUTomated framework for efficient Covid-19 Diagnosis-Network), based on hierarchical resolution steps, to efficiently segment Covid-19 infected lung regions in CT scans. The approach results in a 0.71 dice score and rivals all previous state-of-the-art approaches. The overall evaluation combined with our in-depth model analysis, and critical inferences can be further extended for developing a computer-aided diagnostic (CAD) tool to assist the CT image reading process for detecting Covid-19 infected regions in the near future."
