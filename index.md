@@ -4,7 +4,7 @@ description: I am Utkarsh. More details inside!
 ---
 
 <!-- (comment) the image below can be found in img folder of this very project-->
-![i_am_utkarsh](./img/people/me.jpg){: style="float: right; margin: 0px 20px; width: 180px;" name="fox"}
+![i_am_utkarsh](./img/people/me.png){: style="float: right; margin: 0px 20px; width: 180px;" name="fox"}
 
 
 I am Utkarsh Prakash Srivastava, a Machine Learning Researcher passionate about building systems that connect rigorous mathematics with real-world impact. My research journey began in India, where I worked with [Prof. Palash Goshal](https://scholar.google.com/citations?user=S1OTcXoAAAAJ&hl=en) on biomedical imaging problems, learning how machine learning could push the frontiers of healthcare. Later, I was fortunate to spend a summer in Nagoya, Japan, under [Prof. Toshiaki Fujii](https://profs.provost.nagoya-u.ac.jp/html/100001881_en.html), exploring region-of-interest coding for advanced medical image compression. These experiences gave me not just technical depth, but also the joy of working across cultures and disciplines.  
