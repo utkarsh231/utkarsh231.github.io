@@ -18,7 +18,7 @@
   img: uswintrans.png
   title: "U-SwinTrans: Automated Skin Lesion Segmentation Using Swin Transformer"
   authors: "A. L. Sharma, K. Sharma, <u>Utkarsh Prakash Srivastava</u>, Palash Ghosal"
-  conf_name: "3rd International Conference on Intelligent Systems, Advanced Computing and Communication (ISACC)"
+  conf_name: "ISACC"
   conf_year: 2025
   url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10969397&isnumber=10969157"
   abstract: "Skin lesions are difficult to segment because of their diverse shapes, sizes, colors, and textures. While Convolutional Neural Networks (CNNs) have proven effective in medical image segmentation, traditional U-shaped networks often struggle to capture global features. To address this, we integrated Swin Transformer Blocks into a U-shaped architecture, enhancing the ability to model both local and global context. Additionally, image preprocessing using DCT, DWT, and FFT was applied to improve input quality. The proposed U-SwinTrans architecture tokenizes preprocessed images into patches, which are processed by the encoder-decoder to learn semantic characteristics crucial for lesion segmentation. A comprehensive evaluation on the ISIC 2017 dataset demonstrates the effectiveness of this approach for accurate and robust skin lesion segmentation."
