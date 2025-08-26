@@ -1,0 +1,24 @@
+-
+  layout: paper
+  paper-type: preprint
+  selected: y
+  year: 2025
+  img: roi.png
+  title: "Region of Interest based Medical Image Compression"
+  authors: "<u>Utkarsh Prakash Srivastava</u>, Toshiaki Fujii"
+  conf_name: arXiv
+  conf_year: 2025
+  url: "https://arxiv.org/abs/2501.02895"
+  abstract: "The vast volume of medical image data necessitates efficient compression techniques to support remote healthcare services. This paper explores Region of Interest (ROI) coding to address the balance between compression rate and image quality. By leveraging UNET segmentation on the Brats 2020 dataset, we accurately identify tumor regions, which are critical for diagnosis. These regions are then subjected to High Efficiency Video Coding (HEVC) for compression, enhancing compression rates while preserving essential diagnostic information. This approach ensures that critical image regions maintain their quality, while non-essential areas are compressed more. Our method optimizes storage space and transmission bandwidth, meeting the demands of telemedicine and large-scale medical imaging. Through this technique, we provide a robust solution that maintains the integrity of vital data and improves the efficiency of medical image handling."
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2025
+  img: uswintrans.png
+  title: "U-SwinTrans: Automated Skin Lesion Segmentation Using Swin Transformer"
+  authors: "A. L. Sharma, K. Sharma, <u>Utkarsh Prakash Srivastava</u>, Palash Ghosal"
+  conf_name: "3rd International Conference on Intelligent Systems, Advanced Computing and Communication (ISACC)"
+  conf_year: 2025
+  url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10969397&isnumber=10969157"
+  abstract: "Skin lesions are difficult to segment because of their diverse shapes, sizes, colors, and textures. While Convolutional Neural Networks (CNNs) have proven effective in medical image segmentation, traditional U-shaped networks often struggle to capture global features. To address this, we integrated Swin Transformer Blocks into a U-shaped architecture, enhancing the ability to model both local and global context. Additionally, image preprocessing using DCT, DWT, and FFT was applied to improve input quality. The proposed U-SwinTrans architecture tokenizes preprocessed images into patches, which are processed by the encoder-decoder to learn semantic characteristics crucial for lesion segmentation. A comprehensive evaluation on the ISIC 2017 dataset demonstrates the effectiveness of this approach for accurate and robust skin lesion segmentation."

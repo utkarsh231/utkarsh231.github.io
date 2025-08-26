@@ -6,8 +6,33 @@
   img: brain_cancer.png
   title: "A Comparative Study of Deep Learning Algorithms in Classifying Brain Cancer"
   authors: "<u>Utkarsh Prakash Srivastava</u>"
-  conf_name: "14th International Conference on Computing Communication and Networking Technologies (ICCCNT)"
+  conf_name: "ICCCNT"
   conf_year: 2023
   url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10306832&isnumber=10306339"
   abstract: "Cancer remains a significant global health concern, contributing to a substantial number of fatalities. Specifically, brain cancer entails the abnormal proliferation of cells within or near the brain. Timely detection plays a pivotal role in effective tumor treatment. Machine learning advancements have significantly aided the medical field in diagnosing brain tumors. This study evaluates four popular deep learning algorithms—AlexNet, GoogLeNet, InceptionV3, and ResNet50—using MRI slices to classify tumors into Glioma, Meningioma, Pituitary, and No Tumor categories. Performance was assessed using accuracy, precision, recall, and F1 score, with GoogLeNet achieving the best results. A comparative analysis with state-of-the-art algorithms highlights the enhanced performance of these models for brain cancer classification."
 
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2023
+  img: breast_cancer.png
+  title: "Performance Analysis of an ANN-based Model for Breast Cancer Classification using Wisconsin Dataset"
+  authors: "<u>Utkarsh Prakash Srivastava</u>, V. Vaidehi, T. K. Koirala, Palash Ghosal"
+  conf_name: "ISACC"
+  conf_year: 2023
+  url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10083642&isnumber=10083517"
+  abstract: "Breast Cancer (BC) is among the most fatal diseases responsible for mortality in women. It can spread to other parts of the body via the bloodstream or lymphatic system. This study analyzes methods to classify breast cancer tumors as benign (non-cancerous) or malignant (cancerous) using the Wisconsin Breast Cancer Dataset (WBCD). We evaluated Logistic Regression, Decision Tree, Random Forest, K-Nearest Neighbor, and Artificial Neural Network (ANN) models on the dataset. Among these, the ANN model achieved the best performance. Models were compared across accuracy, precision, recall, and F1 score, highlighting ANN’s superior performance for breast cancer classification."
+
+-
+  layout: paper
+  paper-type: inproceedings
+  selected: y
+  year: 2023
+  img: skin_cancer_gui.png
+  title: "A Transfer Learning based GUI for Skin Cancer Diagnosis and Classification using Dermoscopic Images"
+  authors: "<u>Utkarsh Prakash Srivastava</u>, K. M. Shedge, T. K. Koirala, Palash Ghosal"
+  conf_name: "SILCON"
+  conf_year: 2023
+  url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10404940&isnumber=10404112"
+  abstract: "Skin cancer is the most common cancer worldwide, with over one million new cases diagnosed each year. Early diagnosis greatly improves recovery, but detection remains a challenge in regions lacking proper medical and technological facilities. This paper studies the performance of transfer learning techniques—InceptionV3, Xception, and InceptionResNetV2—on the HAM10000 skin cancer dataset. Experiments were conducted on both imbalanced and balanced versions of the dataset, with models evaluated using accuracy, precision, recall, and F1 score. Xception achieved the best results, and its performance was leveraged to develop a user-friendly GUI to assist doctors in early-stage skin cancer diagnosis and classification."
