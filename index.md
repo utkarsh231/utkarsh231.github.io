@@ -13,39 +13,34 @@ Currently, I am based in New York City as a researcher at NYU Langone Health, wh
 
 Along the way, I have also collaborated with startups, contributing to the development of multimodal legal document intelligence systems, and engaged with communities of researchers worldwide who share the same excitement about deep learning, natural language processing, and computer vision.  
 
-For me, research has always been about people as much as ideas—mentors who guided me, collaborators who challenged me, and institutions that gave me opportunities to grow. Each step, from India to Japan to the United States, has shaped how I see AI: not just as an algorithm, but as a tool for advancing human understanding and solving meaningful problems.
+For me, research has always been about people as much as ideas - mentors who guided me, collaborators who challenged me, and institutions that gave me opportunities to grow. Each step, from India to Japan to the United States, has shaped how I see AI: not just as an algorithm, but as a tool for advancing human understanding and solving meaningful problems.
 
 ## <span style="color:darkblue">News and Timeline </span>
 **2025**
-* **May** Interning at Meta's Llama Pre-training team this Summer!
+* **February** Presented our paper U-SwinTrans: A Skin Cancer Segmentation Architecture at ISACC 2025.
+* **May** Graduated from New York University!
+* **June** Joined the legal-AI startup - [Fileread AI](https://fileread.com) as a Machine Learning Engineer Intern. 
 
 **2024**
-* **August** Starting my doctorate at Harvard University!
-* **May**  Presenting our work on composing large language models at ICLR 2024 in Vienna!
+* **June** Visited [Fujii Lab](https://www.fujii.nuee.nagoya-u.ac.jp/research-e.html), Nagoya University, Japan as a Researcher funded by Japan Government. 
+* **August** Presented work on Region of interest based Medical Image compression. 
+* **September** Started working with [Dr. Samrachana Adhikari](https://samrachana.com/) at NYU Langone Health on Targetted Learning.
 
 **2023**
-* **May**  Presenting our work on linear mode connectivity at ICLR 2023 in Kigali!
+* **February**  Presenting our work on Breast Cancer Classification at ISACC 2023 (IEEE Conference). My First paper as first-author!
+* **June** Graduated from Sikkim Manipal University with B.Tech (AI Hons.). 
+* **July** Presented my solo review work on Brain Tumor classification at ICCCNT, IIT Delhi (IEEE Conference).
+* **September** Joined New York University for Masters in Computer Engineering. 
+* **November** Presented our research on GUI based Skin Cancer Tumor type classification research at IEEE Subsection Conference, India.
 
 **2022**
-* **September**  My bachelor's thesis work done at the Technion was accepted at NeurIPS 2022!
-* **August**  Joining [Google DeepMind](https://research.google/locations/india/) as a pre-doctoral researcher.
-* **June**    Releasing the [pre-print](https://arxiv.org/abs/2205.12411) for our work on analyzing linear mode connectivity and out-of-distribution behaviour. Led by [Jeevesh](https://github.com/Jeevesh8) and mentored by [Naomi](http://nsaphra.github.io/).
-* **May**     Two papers on commonsense and factual reasoning done at Adobe MDSR accepted at NAACL 2022!
-* **January** Starting my bachelor's thesis with [Yonatan](http://www.cs.technion.ac.il/~belinkov/) at the Technion, Israel!
+* **November**  My First Paper, [AUTCD-Net](https://link.springer.com/chapter/10.1007/978-981-19-5090-2_10) was published at Springer Nature!
+
 
 **2021**
-* **November**  Our work evaluating model explanations is accepted at TACL! In collaboration with [Danish](https://www.cs.cmu.edu/~ddanish/).
-* **July**    Attending the 11th Lisbon Machine Learning Summer School ([LXMLS 2021](http://lxmls.it.pt/2021/)).
-<!-- * June 2021:    Volunteering at NAACL 2021. -->
-* **May**     Work with CDLI accepted at ACL SRW 2021. Gauging machine translation and sequence labeling for extremely low-resource languages. 
-* **May**     Starting as a Research Intern at Adobe’s Media and Data Science Research (MDSR).
-<!-- * May 2021:     Volunteering at ICLR 2021. -->
-<!-- * **February**  My first research paper accepted at PAKDD 2021. Detecting fake news early, with [Prof. Tanmoy Chakraborty](http://faculty.iiitd.ac.in/~tanmoy/) and [William Scott](https://www.linkedin.com/in/williamscottp/). -->
-
-**2020**
-* **November**  Started collaborating with [Danish](https://www.cs.cmu.edu/~ddanish/) (LTI, CMU) on evaluating neural explanations for NLP.
+* **December**  Began collaborating with [Dr. Palash Ghosal](https://scholar.google.com/citations?user=S1OTcXoAAAAJ&hl=en) (SMU) on biomedical imaging research.
 <!-- * Nov 2020:     Volunteering at EMNLP 2020. -->
-* **June**    Contributing to the [Cuneiform Digital Library Initiative](https://cdli.ucla.edu/) (CDLI) as a part of [GSoC](https://summerofcode.withgoogle.com/)!
+<!-- * **June**    Contributing to the [Cuneiform Digital Library Initiative](https://cdli.ucla.edu/) (CDLI) as a part of [GSoC](https://summerofcode.withgoogle.com/)! -->
 <!-- * June 2020:    Volunteering at ACL 2020. -->
 <!-- * **May**     Joined [LCS2](http://lcs2.iiitd.edu.in/), IIIT-D as a Research Intern. Working on closed-domain misinformation detection across social networks. -->
 <!-- * May 2019:     Serving as a Teaching Assistant for the Machine Learning course at Coding Blocks. With [Prateek](http://www.prateeknarang.com/) and [Manu](https://www.manuspillai.in/). -->
