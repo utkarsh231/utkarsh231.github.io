@@ -48,5 +48,5 @@ For me, research has always been about people as much as ideas - mentors who gui
 
 <br><br>
 
-[^1]: Started with [a meek awe-inspired email](https://rachitbansal.github.io/img/danish-email.png)
-[^2]: Started with [a message](https://rachitbansal.github.io/img/naomi-discord.jpeg) on [MLC](https://mlcollective.org/)'s Discord channel
+<!-- [^1]: Started with [a meek awe-inspired email](https://rachitbansal.github.io/img/danish-email.png)
+[^2]: Started with [a message](https://rachitbansal.github.io/img/naomi-discord.jpeg) on [MLC](https://mlcollective.org/)'s Discord channel -->
