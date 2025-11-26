@@ -15,6 +15,8 @@ Along the way, I have also collaborated with startups, contributing to the devel
 
 For me, research has always been about people as much as ideas - mentors who guided me, collaborators who challenged me, and institutions that gave me opportunities to grow. Each step, from India to Japan to the United States, has shaped how I see AI: not just as an algorithm, but as a tool for advancing human understanding and solving meaningful problems.
 
+[LinkedIn](https://www.linkedin.com/in/utkarsh-ps/) | [GitHub](https://github.com/utkarsh231) | [Google Scholar](https://scholar.google.com/citations?user=NdMTkAUAAAAJ)
+
 ## <span style="color:darkblue">News and Timeline </span>
 **2025**
 * **February** Presented our paper U-SwinTrans: A Skin Cancer Segmentation Architecture at ISACC 2025.
