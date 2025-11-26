@@ -3,7 +3,7 @@
   paper-type: preprint
   selected: y
   year: 2025
-  img: sparse.jpg
+  img: sparse.png
   title: "Learning Sparse Label Couplings for Multilabel Chest X-Ray Diagnosis"
   authors: "<u>Utkarsh Prakash Srivastava</u>, Kaushik Gupta, Kaushik Nath"
   conf_name: submitted
