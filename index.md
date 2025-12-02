@@ -62,6 +62,16 @@ For me, research has always been about people as much as ideas - mentors who gui
 <!-- * May 2019:     Serving as a Teaching Assistant for the Machine Learning course at Coding Blocks. With [Prateek](http://www.prateeknarang.com/) and [Manu](https://www.manuspillai.in/). -->
 
 
+## <span style="color:darkblue">Where visitors come from</span>
+
+<p style="text-align:center; font-style:italic;">
+  A small peek at where people find this page from 🌍
+</p>
+
+<div style="text-align:center; margin-top: 1rem;">
+  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=yJpebprfgxFjaBazRoQtoxiwkJLt18l1APyaPROP2ZL4&c=ffffff&w=a"></script>
+</div>
+
 <br><br>
 
 <!-- [^1]: Started with [a meek awe-inspired email](https://rachitbansal.github.io/img/danish-email.png)
