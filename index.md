@@ -68,8 +68,11 @@ For me, research has always been about people as much as ideas - mentors who gui
   A small peek at where people find this page from 🌍
 </p>
 
-<div style="text-align:center; margin-top: 1rem;">
+<!-- <div style="text-align:center; margin-top: 1rem;">
   <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=yJpebprfgxFjaBazRoQtoxiwkJLt18l1APyaPROP2ZL4&c=ffffff&w=a"></script>
+</div> -->
+<div style="text-align:center; margin-top: 1rem;">
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=K2OYXAB77MEJaEALZfhOnoRO2_6wW1auxlb4WpwWflw"></script>
 </div>
 
 <br><br>
