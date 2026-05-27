@@ -32,6 +32,9 @@ For me, research has always been about people as much as ideas - mentors who gui
 </p>
 
 ## <span style="color:darkblue">News and Timeline </span>
+**2026**
+* **May** Joined RenewCred as Machine Learning Engineer.
+  
 **2025**
 * **February** Presented our paper U-SwinTrans: A Skin Cancer Segmentation Architecture at ISACC 2025.
 * **May** Graduated from New York University!
